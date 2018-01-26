@@ -177,10 +177,13 @@ class ContentBlockerHelper {
         if let text = text, !text.isEmpty {
             ContentBlockerHelper.whitelistedDomains = text.components(separatedBy: .newlines)
         }
+        Profiler.begin(bookend: .load_trackingprotection_lists)
 
         removeOldListsByDateFromStore() {
             self.removeOldListsByNameFromStore() {
-                self.compileListsNotInStore(completion: {})
+                self.compileListsNotInStore(completion: {
+                    Profiler.end(bookend: .load_trackingprotection_lists)
+                })
             }
         }
 
