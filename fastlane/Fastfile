@@ -1,26 +1,19 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/. 
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
 
-fastlane_version "1.39.0"
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
 
-default_platform :ios
+default_platform(:ios)
 
-
-import_build_tools(
-  url: 'git@github.com:mozilla/firefox-ios-build-tools.git',
-  clone_folder: "../build-tools",
-)
-
-#move all the build tools to the right places
-clone_folder = "../../build-tools"
-sh("rsync -a #{clone_folder}/scripts ../")
-sh("rsync -a #{clone_folder}/fastlane/Appfile Appfile")
-sh("rsync -a #{clone_folder}/fastlane/Snapfile Snapfile")
-sh("rsync -a #{clone_folder}/fastlane/SnapshotHelper.swift SnapshotHelper.swift")
-sh("rsync -a #{clone_folder}/fastlane/scripts .")
-sh("rsync -a #{clone_folder}/fastlane/frames .")
-sh("rsync -a #{clone_folder}/fastlane/templates .")
-
-#import the fastfile
-import "#{clone_folder}/fastlane/BaseFastfile"
+platform :ios do
+  desc "Description of what the lane does"
+  lane :custom_lane do
+    # add actions here: https://docs.fastlane.tools/actions
+  end
+end
