@@ -39,140 +39,29 @@
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
-            buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2FA436041ABB83B4008031D1"
-               BuildableName = "AccountTests.xctest"
-               BlueprintName = "AccountTests"
-               ReferencedContainer = "container:Client.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F84B21D21A090F8100AAB793"
-               BuildableName = "ClientTests.xctest"
-               BlueprintName = "ClientTests"
-               ReferencedContainer = "container:Client.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E6F9650B1B2F1CF20034B023"
-               BuildableName = "SharedTests.xctest"
-               BlueprintName = "SharedTests"
-               ReferencedContainer = "container:Client.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B43E3CF1D95C48D00BBA9DB"
-               BuildableName = "StoragePerfTests.xctest"
-               BlueprintName = "StoragePerfTests"
-               ReferencedContainer = "container:Client.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2FCAE2231ABB51F800877008"
-               BuildableName = "StorageTests.xctest"
-               BlueprintName = "StorageTests"
-               ReferencedContainer = "container:Client.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "282731671ABC9BE700AA1954"
-               BuildableName = "SyncTests.xctest"
-               BlueprintName = "SyncTests"
-               ReferencedContainer = "container:Client.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4D567211ADECE2700F1EFE7"
-               BuildableName = "ReadingListTests.xctest"
-               BlueprintName = "ReadingListTests"
-               ReferencedContainer = "container:Client.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D39FA15E1A83E0EC00EE869C"
+               BlueprintIdentifier = "E14B3146204F6986002FDCCF"
                BuildableName = "UITests.xctest"
                BlueprintName = "UITests"
-               ReferencedContainer = "container:Client.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E69DB07C1E97DEA9008A67E6"
-               BuildableName = "SyncTelemetryTests.xctest"
-               BlueprintName = "SyncTelemetryTests"
                ReferencedContainer = "container:Client.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Fennec_Enterprise"
+      buildConfiguration = "Fennec"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = "en"
       region = "US"
-      shouldUseLaunchSchemeArgsEnv = "NO">
+      shouldUseLaunchSchemeArgsEnv = "NO"
+      codeCoverageEnabled = "YES">
       <PreActions>
          <ExecutionAction
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
@@ -187,61 +76,21 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3BFE4B061D342FB800DDF53F"
-               BuildableName = "XCUITests.xctest"
-               BlueprintName = "XCUITests"
+               BlueprintIdentifier = "E14B3146204F6986002FDCCF"
+               BuildableName = "UITests.xctest"
+               BlueprintName = "UITests"
                ReferencedContainer = "container:Client.xcodeproj">
             </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "BaseTestCase">
-               </Test>
-               <Test
-                  Identifier = "DragAndDropTests">
-               </Test>
-               <Test
-                  Identifier = "HomePageUITest">
-               </Test>
-               <Test
-                  Identifier = "NavigationTest/testNavigationPreservesDesktopSiteOnSameHost()">
-               </Test>
-               <Test
-                  Identifier = "NavigationTest/testReloadPreservesMobileOrDesktopSite()">
-               </Test>
-               <Test
-                  Identifier = "NavigationTest/testScrollsToTopWithMultipleTabs()">
-               </Test>
-               <Test
-                  Identifier = "NavigationTest/testToggleBetweenMobileAndDesktopSiteFromSite()">
-               </Test>
-               <Test
-                  Identifier = "PrivateBrowsingTest/testiPadDirectAccessPrivateMode()">
-               </Test>
-               <Test
-                  Identifier = "PrivateBrowsingTest/testiPadDirectAccessPrivateModeBrowserTab()">
-               </Test>
-               <Test
-                  Identifier = "ReaderViewTest">
-               </Test>
-               <Test
-                  Identifier = "SearchTests/testDismissPromptPresence()">
-               </Test>
-               <Test
-                  Identifier = "SiteLoadTest">
-               </Test>
-               <Test
-                  Identifier = "ToolbarTests/testShowDoNotShowToolbarWhenScrollingLandscape()">
-               </Test>
-               <Test
-                  Identifier = "ToolbarTests/testShowDoNotShowToolbarWhenScrollingPortrait()">
-               </Test>
-               <Test
-                  Identifier = "ToolbarTests/testShowToolbarWhenScrollingDefaultOption()">
-               </Test>
-               <Test
-                  Identifier = "TopTabsTest/testCloseTabFromPageOptionsMenu()">
-               </Test>
-            </SkippedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E14B3155204F73FE002FDCCF"
+               BuildableName = "Tests.xctest"
+               BlueprintName = "Tests"
+               ReferencedContainer = "container:Client.xcodeproj">
+            </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
@@ -267,7 +116,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Fennec_Enterprise"
+      buildConfiguration = "Fennec"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
@@ -298,7 +147,7 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Fennec_Enterprise"
+      buildConfiguration = "Fennec"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -315,10 +164,10 @@
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Fennec_Enterprise">
+      buildConfiguration = "Fennec">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Fennec_Enterprise"
+      buildConfiguration = "Fennec"
       revealArchiveInOrganizer = "YES">
       <PreActions>
          <ExecutionAction

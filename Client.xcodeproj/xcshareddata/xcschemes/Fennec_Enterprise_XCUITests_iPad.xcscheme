@@ -144,7 +144,7 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D39FA15E1A83E0EC00EE869C"
+               BlueprintIdentifier = "E14B3146204F6986002FDCCF"
                BuildableName = "UITests.xctest"
                BlueprintName = "UITests"
                ReferencedContainer = "container:Client.xcodeproj">
@@ -245,6 +245,16 @@
                   Identifier = "TopTabsTest/testSwitchBetweenTabsToastButton()">
                </Test>
             </SkippedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E14B3155204F73FE002FDCCF"
+               BuildableName = "Tests.xctest"
+               BlueprintName = "Tests"
+               ReferencedContainer = "container:Client.xcodeproj">
+            </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
